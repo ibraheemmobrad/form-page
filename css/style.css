@@ -24,7 +24,7 @@ select,
 
     border-radius: 15%;
 }
-@media (max-width: 666px) {
+@media (min-width: 100px) {
   .form-page {
     width: 80%;
     margin-right: 10%;
