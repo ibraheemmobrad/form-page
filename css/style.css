@@ -1,0 +1,47 @@
+* {
+  direction: rtl;
+}
+body {
+  background-color: #004d99;
+}
+.form-head {
+  color: white;
+  text-align: center;
+}
+input,
+select {
+  margin-bottom: 10px;
+  text-align: center;
+}
+#submitButton {
+  background-color: #00e639;
+}
+input,
+select,
+#submitButton {
+    height: 30px;
+    width: 100%;
+
+    border-radius: 15%;
+}
+@media (max-width: 666px) {
+  .form-page {
+    width: 80%;
+    margin-right: 10%;
+    margin-left: 10%;
+  }
+}
+@media (min-width: 667px) {
+  .form-page {
+    width: 75%;
+    margin-right: 12.5%;
+    margin-left: 12.5%;
+  }
+}
+@media (min-width: 1000px) {
+  .form-page {
+    width: 25%;
+    margin-right: 37.5%;
+    margin-left: 37.5%;
+  }
+}
